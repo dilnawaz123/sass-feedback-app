@@ -1,0 +1,577 @@
+.desktop-roadmap {
+    background-color: #f7f8fd;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.desktop-roadmap .div {
+    background-color: #f7f8fd;
+    height: 1367px;
+    position: relative;
+    width: 1440px;
+}
+
+.desktop-roadmap .group {
+    height: 113px;
+    left: 165px;
+    position: absolute;
+    top: 78px;
+    width: 1110px;
+}
+
+.desktop-roadmap .overlap {
+    background-color: #373f68;
+    border-radius: 10px;
+    height: 115px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 1112px;
+}
+
+.desktop-roadmap .group-2 {
+    height: 59px;
+    left: 33px;
+    position: absolute;
+    top: 28px;
+    width: 103px;
+}
+
+.desktop-roadmap .text-wrapper {
+    color: #ffffff;
+    font-family: "Jost-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: -0.33px;
+    line-height: normal;
+    position: absolute;
+    top: 23px;
+}
+
+.desktop-roadmap .group-3 {
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 76px;
+}
+
+.desktop-roadmap .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Jost-Bold", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: -1px;
+}
+
+.desktop-roadmap .path {
+    height: 9px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 5px;
+}
+
+.desktop-roadmap .overlap-group-wrapper {
+    height: 44px;
+    left: 913px;
+    overflow: hidden;
+    position: absolute;
+    top: 36px;
+    width: 158px;
+}
+
+.desktop-roadmap .overlap-group {
+    background-color: #ad1fea;
+    border-radius: 10px;
+    height: 46px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 160px;
+}
+
+.desktop-roadmap .text-wrapper-3 {
+    color: #f2f4fe;
+    font-family: "Jost-Bold", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 12px;
+}
+
+.desktop-roadmap .group-4 {
+    height: 653px;
+    left: 165px;
+    position: absolute;
+    top: 239px;
+    width: 350px;
+}
+
+.desktop-roadmap .group-5 {
+    height: 53px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 197px;
+}
+
+.desktop-roadmap .text-wrapper-4 {
+    color: #3a4374;
+    font-family: "Jost-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: -0.25px;
+    line-height: normal;
+    position: absolute;
+    top: -1px;
+}
+
+.desktop-roadmap .text-wrapper-5 {
+    color: #647196;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 29px;
+}
+
+.desktop-roadmap .overlap-wrapper {
+    height: 272px;
+    left: 0;
+    position: absolute;
+    top: 85px;
+    width: 350px;
+}
+
+.desktop-roadmap .overlap-2 {
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 274px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 352px;
+}
+
+.desktop-roadmap .rectangle-copy {
+    background-color: #f49f85;
+    border-radius: 5px 5px 0px 0px;
+    height: 8px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 352px;
+}
+
+.desktop-roadmap .group-6 {
+    height: 40px;
+    left: 32px;
+    position: absolute;
+    top: 201px;
+    width: 287px;
+}
+
+.desktop-roadmap .group-7 {
+    height: 23px;
+    left: 243px;
+    position: absolute;
+    top: 9px;
+    width: 44px;
+}
+
+.desktop-roadmap .img {
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 4px;
+    width: 18px;
+}
+
+.desktop-roadmap .text-wrapper-6 {
+    color: #3a4374;
+    font-family: "Jost-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 26px;
+    letter-spacing: -0.22px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    width: 18px;
+}
+
+.desktop-roadmap .div-wrapper {
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 69px;
+}
+
+.desktop-roadmap .group-wrapper {
+    background-color: #f2f4fe;
+    border-radius: 10px;
+    height: 42px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 71px;
+}
+
+.desktop-roadmap .group-8 {
+    height: 19px;
+    left: 17px;
+    position: relative;
+    top: 12px;
+    width: 40px;
+}
+
+.desktop-roadmap .text-wrapper-7 {
+    color: #3a4374;
+    font-family: "Jost-Bold", Helvetica;
+    font-size: 13px;
+    font-weight: 700;
+    left: 18px;
+    letter-spacing: -0.18px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+}
+
+.desktop-roadmap .path-2 {
+    height: 6px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    width: 9px;
+}
+
+.desktop-roadmap .group-9 {
+    height: 76px;
+    left: 33px;
+    position: absolute;
+    top: 63px;
+    width: 286px;
+}
+
+.desktop-roadmap .p {
+    color: #647196;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 29px;
+    width: 286px;
+}
+
+.desktop-roadmap .group-10 {
+    height: 23px;
+    left: 33px;
+    overflow: hidden;
+    position: absolute;
+    top: 32px;
+    width: 79px;
+}
+
+.desktop-roadmap .text-wrapper-8 {
+    color: #647196;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: -1px;
+}
+
+.desktop-roadmap .oval {
+    background-color: #f49f85;
+    border-radius: 5px;
+    height: 10px;
+    left: -1px;
+    position: absolute;
+    top: 6px;
+    width: 10px;
+}
+
+.desktop-roadmap .group-11 {
+    height: 30px;
+    left: 32px;
+    overflow: hidden;
+    position: absolute;
+    top: 155px;
+    width: 77px;
+}
+
+.desktop-roadmap .overlap-3 {
+    background-color: #f2f4ff;
+    border-radius: 10px;
+    height: 32px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 79px;
+}
+
+.desktop-roadmap .text-wrapper-9 {
+    color: #4661e6;
+    font-family: "Jost-SemiBold", Helvetica;
+    font-size: 13px;
+    font-weight: 600;
+    left: 17px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+}
+
+.desktop-roadmap .group-copy {
+    height: 272px;
+    left: 0;
+    position: absolute;
+    top: 381px;
+    width: 350px;
+}
+
+.desktop-roadmap .group-12 {
+    height: 19px;
+    left: 17px;
+    position: relative;
+    top: 12px;
+    width: 38px;
+}
+
+.desktop-roadmap .text-wrapper-10 {
+    color: #3a4374;
+    font-family: "Jost-Bold", Helvetica;
+    font-size: 13px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: -0.18px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+}
+
+.desktop-roadmap .group-13 {
+    height: 53px;
+    left: 925px;
+    position: absolute;
+    top: 239px;
+    width: 119px;
+}
+
+.desktop-roadmap .overlap-4 {
+    height: 949px;
+    left: 545px;
+    position: absolute;
+    top: 239px;
+    width: 350px;
+}
+
+.desktop-roadmap .group-14 {
+    height: 949px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 350px;
+}
+
+.desktop-roadmap .group-15 {
+    height: 53px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 182px;
+}
+
+.desktop-roadmap .rectangle-copy-2 {
+    background-color: #ad1fea;
+    border-radius: 5px 5px 0px 0px;
+    height: 8px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 352px;
+}
+
+.desktop-roadmap .group-16 {
+    height: 23px;
+    left: 33px;
+    overflow: hidden;
+    position: absolute;
+    top: 32px;
+    width: 100px;
+}
+
+.desktop-roadmap .oval-2 {
+    background-color: #ad1fea;
+    border-radius: 5px;
+    height: 10px;
+    left: -1px;
+    position: absolute;
+    top: 6px;
+    width: 10px;
+}
+
+.desktop-roadmap .group-17 {
+    height: 19px;
+    left: 17px;
+    position: relative;
+    top: 12px;
+    width: 36px;
+}
+
+.desktop-roadmap .text-wrapper-11 {
+    color: #3a4374;
+    font-family: "Jost-Bold", Helvetica;
+    font-size: 13px;
+    font-weight: 700;
+    left: 22px;
+    letter-spacing: -0.18px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+}
+
+.desktop-roadmap .group-copy-2 {
+    height: 272px;
+    left: 0;
+    position: absolute;
+    top: 677px;
+    width: 350px;
+}
+
+.desktop-roadmap .text-wrapper-12 {
+    color: #3a4374;
+    font-family: "Jost-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 26px;
+    letter-spacing: -0.22px;
+    line-height: normal;
+    opacity: 0.5;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    width: 18px;
+}
+
+.desktop-roadmap .group-18 {
+    height: 19px;
+    left: 17px;
+    position: relative;
+    top: 12px;
+    width: 34px;
+}
+
+.desktop-roadmap .text-wrapper-13 {
+    color: #3a4374;
+    font-family: "Jost-Bold", Helvetica;
+    font-size: 13px;
+    font-weight: 700;
+    left: 24px;
+    letter-spacing: -0.18px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+}
+
+.desktop-roadmap .group-19 {
+    height: 30px;
+    left: 31px;
+    overflow: hidden;
+    position: absolute;
+    top: 831px;
+    width: 56px;
+}
+
+.desktop-roadmap .overlap-5 {
+    background-color: #f2f4ff;
+    border-radius: 10px;
+    height: 32px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 58px;
+}
+
+.desktop-roadmap .group-20 {
+    height: 272px;
+    left: 925px;
+    position: absolute;
+    top: 324px;
+    width: 350px;
+}
+
+.desktop-roadmap .group-21 {
+    height: 30px;
+    left: 32px;
+    overflow: hidden;
+    position: absolute;
+    top: 155px;
+    width: 111px;
+}
+
+.desktop-roadmap .overlap-group-2 {
+    background-color: #f2f4ff;
+    border-radius: 10px;
+    height: 32px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 113px;
+}
+
+.desktop-roadmap .rectangle-copy-3 {
+    background-color: #62bcfa;
+    border-radius: 5px 5px 0px 0px;
+    height: 8px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 352px;
+}
+
+.desktop-roadmap .group-22 {
+    height: 23px;
+    left: 33px;
+    overflow: hidden;
+    position: absolute;
+    top: 32px;
+    width: 51px;
+}
+
+.desktop-roadmap .oval-3 {
+    background-color: #62bcfa;
+    border-radius: 5px;
+    height: 10px;
+    left: -1px;
+    position: absolute;
+    top: 6px;
+    width: 10px;
+}

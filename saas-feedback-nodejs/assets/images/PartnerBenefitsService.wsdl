@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:gen="http://www.americanexpress.com/GCST/corporateicoeservices/common/v1/common" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:tns="http://www.americanexpress.com/taskservice/service/offerservicing/partnerbenefitsservice/v2" xmlns:elig="http://www.americanexpress.com/taskservice/schema/offerservicing/partnerbenefitsservice/v2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="PartnerBenefitsService" targetNamespace="http://www.americanexpress.com/taskservice/service/offerservicing/partnerbenefitsservice/v2" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>
+		Taxonomy Classification = Task Service
+		Description = This service interface offers the capability to validate eligibility for benefits
+		based on product and market for a given card number
+		Version 2.0
+		Note : The major version also indicated as the last element in the targetNamespace is
+		available as part of the soap payload. The Major and Minor version elements provided as part of this 
+		documentation section is for reference only.
+	</wsdl:documentation>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.americanexpress.com/taskservice/service/offerservicing/partnerbenefitsservice/v2">
+      <xsd:import schemaLocation="CheckCardEligibilityV2.xsd" namespace="http://www.americanexpress.com/taskservice/schema/offerservicing/partnerbenefitsservice/v2" />
+      <xsd:import schemaLocation="CommonV1.xsd" namespace="http://www.americanexpress.com/GCST/corporateicoeservices/common/v1/common" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="CheckCardEligibilityRequestMessage">
+    <wsdl:part name="requestHeader" element="gen:RequestHeader" />
+    <wsdl:part name="CheckCardEligibilityReq" element="elig:checkCardEligibilityRequest" />
+  </wsdl:message>
+  <wsdl:message name="CheckCardEligibilityResponseMessage">
+    <wsdl:part name="responseHeader" element="gen:ResponseHeader" />
+    <wsdl:part name="CheckCardEligibilityResp" element="elig:checkCardEligibilityResponse" />
+  </wsdl:message>
+  <wsdl:message name="GCCSServiceFault">
+    <wsdl:part name="GCCSServiceFault" element="gen:GCCSServiceFault" />
+  </wsdl:message>
+  <wsdl:portType name="IPartnerBenefitsService">
+    <wsdl:documentation>
+  		This service interface offers the capability to validate eligibility for benefits
+		based on product and market for a given card number
+	</wsdl:documentation>
+    <wsdl:operation name="checkCardEligibility">
+      <wsdl:documentation>This operation provides the eligibility indicator for a given card number</wsdl:documentation>
+      <wsdl:input message="tns:CheckCardEligibilityRequestMessage" />
+      <wsdl:output message="tns:CheckCardEligibilityResponseMessage" />
+      <wsdl:fault name="GCCSServiceFault" message="tns:GCCSServiceFault" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PartnerBenefitsServiceBinding" type="tns:IPartnerBenefitsService">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="checkCardEligibility">
+      <soap12:operation soapAction="urn:checkCardEligibility" />
+      <wsdl:input>
+        <soap12:header message="tns:CheckCardEligibilityRequestMessage" part="requestHeader" use="literal" />
+        <soap12:body use="literal" parts="CheckCardEligibilityReq" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:header message="tns:CheckCardEligibilityResponseMessage" part="responseHeader" use="literal" />
+        <soap12:body use="literal" parts="CheckCardEligibilityResp" />
+      </wsdl:output>
+      <wsdl:fault name="GCCSServiceFault">
+        <soap12:fault use="literal" name="GCCSServiceFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PartnerBenefitsService">
+    <wsdl:port name="PartnerBenefitsServicePort" binding="tns:PartnerBenefitsServiceBinding">
+      <wsdl:documentation>This service offers provider benefits eligibility check</wsdl:documentation>
+      <soap12:address location="N/A" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

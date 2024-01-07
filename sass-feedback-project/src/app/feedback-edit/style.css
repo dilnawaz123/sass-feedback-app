@@ -1,0 +1,339 @@
+.desktop-edit {
+    background-color: #f7f8fd;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.desktop-edit .div {
+    background-color: #f7f8fd;
+    height: 1131px;
+    position: relative;
+    width: 1440px;
+}
+
+.desktop-edit .overlap {
+    height: 851px;
+    left: 449px;
+    position: absolute;
+    top: 152px;
+    width: 542px;
+}
+
+.desktop-edit .rectangle-copy {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 824px;
+    left: 0;
+    position: absolute;
+    top: 27px;
+    width: 542px;
+}
+
+.desktop-edit .group {
+    height: 620px;
+    left: 43px;
+    position: absolute;
+    top: 190px;
+    width: 456px;
+}
+
+.desktop-edit .group-2 {
+    height: 106px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 456px;
+}
+
+.desktop-edit .overlap-group-wrapper {
+    height: 48px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 58px;
+    width: 456px;
+}
+
+.desktop-edit .overlap-group {
+    background-color: #f7f8fd;
+    border-radius: 5px;
+    height: 50px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 458px;
+}
+
+.desktop-edit .text-wrapper {
+    color: #3a4374;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 13px;
+}
+
+.desktop-edit .group-3 {
+    height: 42px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 197px;
+}
+
+.desktop-edit .text-wrapper-2 {
+    color: #3a4374;
+    font-family: "Jost-Bold", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: -0.19px;
+    line-height: normal;
+    position: absolute;
+    top: -1px;
+}
+
+.desktop-edit .text-wrapper-3 {
+    color: #647196;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 21px;
+}
+
+.desktop-edit .group-copy {
+    height: 154px;
+    left: 0;
+    position: absolute;
+    top: 390px;
+    width: 456px;
+}
+
+.desktop-edit .div-wrapper {
+    height: 96px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 58px;
+    width: 456px;
+}
+
+.desktop-edit .it-would-help-people-wrapper {
+    background-color: #f7f8fd;
+    border-radius: 5px;
+    height: 98px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 458px;
+}
+
+.desktop-edit .it-would-help-people {
+    color: #3a4374;
+    font-family: "Jost-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 16px;
+}
+
+.desktop-edit .group-4 {
+    height: 42px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 432px;
+}
+
+.desktop-edit .overlap-wrapper {
+    height: 44px;
+    left: 312px;
+    overflow: hidden;
+    position: absolute;
+    top: 576px;
+    width: 144px;
+}
+
+.desktop-edit .overlap-2 {
+    background-color: #ad1fea;
+    border-radius: 10px;
+    height: 46px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 146px;
+}
+
+.desktop-edit .text-wrapper-4 {
+    color: #f2f4fe;
+    font-family: "Jost-Bold", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 12px;
+}
+
+.desktop-edit .group-copy-2 {
+    height: 44px;
+    left: 203px;
+    overflow: hidden;
+    position: absolute;
+    top: 576px;
+    width: 93px;
+}
+
+.desktop-edit .overlap-3 {
+    background-color: #3a4374;
+    border-radius: 10px;
+    height: 46px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 95px;
+}
+
+.desktop-edit .group-copy-3 {
+    height: 44px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 576px;
+    width: 93px;
+}
+
+.desktop-edit .overlap-4 {
+    background-color: #d73737;
+    border-radius: 10px;
+    height: 46px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 95px;
+}
+
+.desktop-edit .group-copy-4 {
+    height: 106px;
+    left: 0;
+    position: absolute;
+    top: 130px;
+    width: 456px;
+}
+
+.desktop-edit .path {
+    height: 6px;
+    left: 424px;
+    position: absolute;
+    top: 22px;
+    width: 9px;
+}
+
+.desktop-edit .group-5 {
+    height: 42px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 220px;
+}
+
+.desktop-edit .group-copy-5 {
+    height: 106px;
+    left: 0;
+    position: absolute;
+    top: 260px;
+    width: 456px;
+}
+
+.desktop-edit .group-6 {
+    height: 42px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 135px;
+}
+
+.desktop-edit .editing-add-a-dark {
+    color: #3a4374;
+    font-family: "Jost-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 43px;
+    letter-spacing: -0.33px;
+    line-height: normal;
+    position: absolute;
+    top: 79px;
+    width: 456px;
+}
+
+.desktop-edit .group-7 {
+    height: 56px;
+    left: 43px;
+    position: absolute;
+    top: 0;
+    width: 56px;
+}
+
+.desktop-edit .combined-shape-wrapper {
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgb(232.25, 77.2, 111.53) 0%,
+        rgb(163, 55, 246) 53.09%,
+        rgb(40, 166.93, 236.54) 100%
+    );
+    border-radius: 29px;
+    height: 58px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 58px;
+}
+
+.desktop-edit .combined-shape {
+    height: 24px;
+    left: 17px;
+    position: absolute;
+    top: 17px;
+    width: 23px;
+}
+
+.desktop-edit .group-8 {
+    height: 20px;
+    left: 450px;
+    position: absolute;
+    top: 92px;
+    width: 76px;
+}
+
+.desktop-edit .text-wrapper-5 {
+    color: #647196;
+    font-family: "Jost-Bold", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: -1px;
+}
+
+.desktop-edit .img {
+    height: 9px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 5px;
+}
