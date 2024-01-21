@@ -1,48 +1,36 @@
-require("dotenv").config();
-const express = require("express");
-const bodyParser = require("body-parser");
-const cors = require("cors");
-const Mongoose = require("mongoose");
-const ssm = require("./connections/aws-ssm");
-const state = { isShutdown: false };
-const session = require("express-session");
-const MongoDBStore = require("connect-mongodb-session")(session);
-const xlsx = require("xlsx");
-const path = require("path");
-
-const DEBUG_DELAY = 2000;
-const READINESS_PROBE_DELAY = 2 * 2 * 1000;
+require('dotenv').config();
+const express = require('express');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+const session = require('express-session');
+const { MongoClient } = require('mongodb');
 
 const app = express();
+const PORT = 3001;
+
 app.use(cors());
-app.use(
-  bodyParser.urlencoded({
-    limit: "100mb",
-    extended: true,
-    parameterLimit: 100000,
-  })
-);
-app.use(bodyParser.json({ limit: "100mb" }));
+app.use(bodyParser.json());
 
-var server = app.listen(process.env.PORT, async () => {
-  console.log("Connected successfully on port " + process.env.PORT);
-  await ssm.initialiseEnvironment();
+// MongoDB Connection
+const uri = process.env.MONGODB_URI;
 
-  const store = new MongoDBStore({
-    uri: process.env.MONGO_READ_DB,
-    collection: "user_sessions",
-  });
-  app.use(
-    session({
-      secret: "ppgLMS",
-      resave: false,
-      saveUninitialized: false,
-      store: store,
-    })
-  );
-  const routes = require("./routes/routes");
+const client = new MongoClient(uri, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
+async function connectToMongoDB() {
+  try {
+    await client.connect();
+    console.log('Connected to MongoDB');
+  } catch (err) {
+    console.error('Error connecting to MongoDB', err);
+  }
+}
 
-  app.use(routes);
+// Connect to MongoDB
+connectToMongoDB();
 
-})
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
