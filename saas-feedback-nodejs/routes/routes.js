@@ -7,5 +7,4 @@ require('dotenv').config()
 
 
 
-router.post('/api/master/user/authenticate', feedbackController.saveImportAction
-)
+router.post('/api/add/new/sassFeedback', feedbackController.saveSassFeedback)

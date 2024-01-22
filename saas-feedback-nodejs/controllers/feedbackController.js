@@ -2,32 +2,34 @@
 const APIResponse = require("../models/ApiResponse");
 const { readfeedback, writefeedback } = require("../models/mongoSchemas/feedback")
 
-exports.saveImportAction = async (req, res) => {
-  const lang = languagejson.whichJSONToUse(req.body.authorisedUser.language)
-  const Response = new APIResponse()
-  Response.setTag('/api/master/action/save/import')
+exports.saveSassFeedback = async (req, res) => {
+ 
+  const Response = new ApiResponse();
+  Response.setInput(req.body);
+  Response.setTag('/api/add/new/sassFeedback')
   try {
 
 
     const feedback = await new writefeedback({
-      actionName: result1.inputData.actionName,
-      actionShortName: result1.inputData.actionShortName,
-      actionDescription: result1.inputData.actionDescription,
-      actionUrl: result1.inputData.actionUrl,
+      feedbackTitle: req.body.title,
+      category: req.body.category,
+      feedbackDetail: req.body.details,
+      createdOn: new Date(),
+      lastModifiedOn: new Date(),
     });
     feedback.save()
 
-    res.send(new APIResponse(1, lang["Success"], "", "/import/assets/save"));
+    Response.setStatus(1);
+    Response.setResult(null);
+    Response.setDescription("Successfully Saved Data");
+    return res.send(Response);
 
   } catch (err) {
-    res.send(
-      new APIResponse(
-        0,
-        err.message ? err.message : err,
-        err,
-        "",
-        "/import/action/save"
-      )
-    );
+
+    Response.setStatus(0);
+    Response.setResult(null);
+    Response.setDescription(err.message);
+    return res.send(Response);
   }
 }
+
